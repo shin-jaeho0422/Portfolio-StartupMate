@@ -1,0 +1,221 @@
+/* Default CSS*/
+body {
+    font-size: 17px;
+}
+
+section {
+    padding: 50px 15px;
+}
+
+.headline-share h1 {
+    font-size: 40px;
+}
+
+.headline-share p {
+    padding: 0 20px;
+}
+
+/* ※※※※※※※※※※※※※※※ Header ※※※※※※※※※※※※※※※ */
+header .inner .gnb {
+    float: none;
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background: rgb(249, 251, 255);
+    top: 0;
+    right: 0;
+    right: -215px;
+    margin: 0;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, .3);
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+header .inner .gnb.active {
+    right: 0;
+}
+
+header .inner .gnb a {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 10px;
+}
+/* Trigger */
+#trigger {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    font-size: 30px;
+}
+
+#trigger::before {
+    content: '\e91c';
+    font-family: 'xeicon';
+    cursor: pointer;
+}
+
+#trigger.active::before {
+    content: '\e9af';
+}
+
+/* ※※※※※※※※※※※※※※※ Welcome ※※※※※※※※※※※※※※※ */
+.welcome .slideshow img {
+    height: 600px;
+}
+
+.welcome .welcome-heading {
+    top: 50%;
+    left: 50px;
+    width: 45%;
+}
+
+.welcome-heading h1 {
+    font-size: 30px;
+}
+
+.welcome-heading p {
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+/* ※※※※※※※※※※※※※※※ Ceo-access ※※※※※※※※※※※※※※※ */
+.access-inner .access-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.access-content .access-right {
+    width: 100%;
+}
+
+/* ※※※※※※※※※※※※※※※ Banner ※※※※※※※※※※※※※※※ */
+.banner-content > div {
+    float: none;
+    width: 100%;
+}
+
+.tabs .tab {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.tab-btn label span {
+    font-size: 16px;
+    padding: 0;
+}
+
+/* ※※※※※※※※※※※※※※※ Feature ※※※※※※※※※※※※※※※ */
+.feature-inner .feature-content {
+    margin: 100px 0;
+}
+
+.feature-content > div {
+    float: none;
+    width: 100%;
+}
+
+.feature-content .feature-about h2 {
+    font-size: 25px;
+}
+
+/* Change Order with Flex */
+.feature-content.flex-order {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-content.flex-order > div:first-child {
+    order: 1;
+}
+
+/* ※※※※※※※※※※※※※※※ Vision ※※※※※※※※※※※※※※※ */
+.vision-content > div {
+    height: 300px;
+}
+
+/* ※※※※※※※※※※※※※※※ Review ※※※※※※※※※※※※※※※ */
+.review {
+    padding: 80px 0;
+}
+
+.review-inner .review-content {
+    width: 100%;
+}
+
+.review-content h1.slogan {
+    font-size: 22px;
+}
+
+.review-slider div p {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.review-slider .slick-arrow {
+    display: none !important;
+}
+
+/* ※※※※※※※※※※※※※※※ Focus ※※※※※※※※※※※※※※※ */
+.focus-content .focus-item {
+    padding: 0 40px;
+}
+
+.focus-item h3 {
+    font-size: 1.5vw;
+}
+
+/* ※※※※※※※※※※※※※※※ Guide ※※※※※※※※※※※※※※※ */
+.guide-content > div {
+    float: none;
+}
+
+.guide-content .guide-slider,
+.guide-content .guide-video {
+    width: 100%;
+    text-align: center;
+}
+
+.video-frame {
+    width: 100%;
+    height: 100%;
+}
+
+/* ※※※※※※※※※※※※※※※ Footer ※※※※※※※※※※※※※※※ */
+footer {
+    padding: 40px;
+}
+
+.footer-content > div {
+    float: none;
+    text-align: center;
+}
+
+.footer-content .footer-logo,
+.footer-content .copyright {
+    width: 100%;
+}
+
+.policy-sns .policy,
+.policy-sns .sns {
+    float: none;    
+}
+
+.policy-sns .policy {
+    margin: 15px 0;
+}
+
+/* Video Modal */
+.video-content {
+    width: 90%;
+}
+
+.video-content iframe {
+    width: 100%;
+    height: 300px;
+}

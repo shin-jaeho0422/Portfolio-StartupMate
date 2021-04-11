@@ -1,0 +1,229 @@
+/* Default CSS */
+body {
+    font-size: 16px;
+}
+
+.headline-share h1 {
+    font-size: 32px;
+}
+
+/* ※※※※※※※※※※※※※※※ Welcome ※※※※※※※※※※※※※※※ */
+.welcome {
+    background: #f9f9f9;
+    height: 500px;
+}
+
+.welcome .slideshow img {
+    width: 100%;
+    height: 450px;
+}
+
+.welcome .welcome-heading {
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+.welcome-heading span {
+    font-size: 20px;
+}
+
+.welcome-heading p {
+    padding: 0 30px;
+}
+
+/* ※※※※※※※※※※※※※※※ Ceo-access ※※※※※※※※※※※※※※※ */
+.ceo-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.ceo-content .ceo-left {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.ceo-right > div {
+    float: none;
+}
+
+.ceo-right .ceo-msg,
+.ceo-right .ceo-photo {
+    width: 100%;
+}
+
+.access-inner .access-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.access-content .access-left {
+    padding: 30px 0;
+}
+
+.access-content .access-left h2 {
+    font-size: 26px;
+}
+
+.access-left .btn-download a {
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 5px auto;
+}
+
+.access-right img {
+    width: 100%;
+}
+
+/* ※※※※※※※※※※※※※※※ Banner ※※※※※※※※※※※※※※※ */
+.tab-btn label {
+    width: 27%;
+}
+
+.tab-btn {
+    text-align: center;
+}
+
+.tab-btn label em {
+    width: 100px;
+    height: 100px;
+}
+
+.tabs .tab {
+    padding: 20px;
+    text-align: center;
+}
+
+.tabs .tab h2  {
+    font-size: 26px;
+}
+
+.tab-btn label span {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto 0;
+}
+
+/* ※※※※※※※※※※※※※※※ Feature ※※※※※※※※※※※※※※※ */
+.feature-inner .feature-content {
+    margin: 80px 0;
+}
+
+.feature-mockup img {
+    width: 100%;
+}
+
+.feature-content .feature-about h2 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.feature-content .feature-about p {
+    padding: 10px 0;
+}
+
+/* ※※※※※※※※※※※※※※※ Vision ※※※※※※※※※※※※※※※ */
+.vision {padding-top: 0;}
+
+.vision-content > div {
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.vision-item-desc {
+    padding: 30px 0;
+}
+
+/* ※※※※※※※※※※※※※※※ Faq ※※※※※※※※※※※※※※※ */
+.faq-content {margin-top: 20px;}
+.awards-content {margin-top: 20px;}
+
+.faq-content > div {
+    float: none;
+    width: 100%;
+    padding: 0;
+}
+
+/* ※※※※※※※※※※※※※※※ Guide ※※※※※※※※※※※※※※※ */
+.guide {
+    padding: 60px 0;
+}
+
+.guide-content .guide-slider {
+    margin-bottom: 60px;
+}
+
+.guide-video h1 {
+    font-size: 24px;
+}
+
+.guide-video h2.video-headline {
+    font-size: 20px;
+}
+
+h2.video-headline img {
+    width: 30px;
+}
+
+/* ※※※※※※※※※※※※※※※ News ※※※※※※※※※※※※※※※ */
+.news-content > div {
+    float: none;
+    text-align: center;
+}
+
+.news-content .news-left {
+    width: 100%;
+}
+
+.news-content .news-right {
+    width: 100%;
+}
+
+.news-left .news-big {
+    width: 100%;
+    height: 100%;
+}
+
+.news-big img {
+    height: 400px;
+}
+
+.news-big .news-headline h2 {
+    font-size: 25px;
+}
+
+.news-thum:nth-child(1),
+.news-thum:nth-child(3) {
+    margin-right: 0;
+}
+
+.news-thum:nth-child(1),
+.news-thum:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.news-thum .news-photo {
+    display: block;
+}
+
+.news-photo img {
+    width: 100%;
+}
+
+.news-right .news-items {
+    height: 100%;
+}
+
+.news-items .news-thum {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.news-thum p {
+    text-align: start;
+}
